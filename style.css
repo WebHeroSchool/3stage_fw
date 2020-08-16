@@ -1,0 +1,171 @@
+        /* HEADER */
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 52px 58px 34.72px;
+}
+
+.nav-header__link {
+    font: 600 15px/18px Montserrat;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-header__link_active {
+    color: #E51937;
+    left: 72px;
+    position: relative;
+}
+
+.nav-header__link_active::after {
+    content: '';
+    position: absolute;
+    width: 62px;
+    height: 2px;
+    background: #E51937;
+    right: 2px;
+    top: 25px;
+}
+
+.nav-header__link_modelx {
+    margin: 0 25px 0 63px;
+    position: relative;
+    left: 69px;
+}
+
+.nav-header__link_model3 {
+    position: relative;
+    left: 65px;
+}
+
+.nav-header__link_roadster {
+    margin: 0 46px 0 44px;
+    position: relative;
+    left: 61px;
+}
+
+.nav-header__link_Energy {
+    margin: 0 46px 0 44px;
+    position: relative;
+    left: 13px;
+}
+
+.nav-header__link_comein {
+    margin: 0 28px 0 25px;
+}
+
+.header__burger {
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+}
+
+.burger-line {
+    width: 24px;
+    height: 2px;
+    background: #E51937;
+}
+
+.burger-second {
+    margin: 4.5px 0;
+} 
+
+        /* HEADER-SECTION */
+
+.header__sec {
+    display: block;
+    text-align: center;
+    background: url('img/bg_tesla.png') 0 0/100% auto no-repeat;
+    margin: 0 0 21px;
+}
+
+.header-sec__title {
+    font: 600 90px/110px Montserrat;
+    margin: 0 0 -22px;
+}
+
+.header-sec__welcome {
+    font: 500 11.5px/18px Montserrat;
+
+}
+
+.header-sec__img {
+    margin: 13px 72px 0 0;
+}
+
+        /* HEADER__ROWS */
+
+.header__rows {
+    height: 58px;
+    width: 798px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 37px;
+}
+
+.speed__icon {
+    margin: 0px 0 0 -9px;
+}
+
+.desc__content {
+    font: 600 35px/43px Montserrat;
+}
+
+.desc__unit {
+    font: 600 20px/24px Montserrat;
+}
+
+.desc__additionally {
+    font: normal 12px/15px Montserrat;
+    margin: 5px 0 0;
+    position: relative;
+    bottom: 7px;
+}
+
+.desc__content,
+.row-header__speed,
+.row-header__distance {
+    display: inline-block;
+}
+
+.distance__icon {
+    margin: 0 -5px 0px 62px;
+}
+
+.header__row_second {
+    display: flex;
+    align-items: center;
+}
+
+.row-header__test-drive{
+    font: bold 13px/16px Montserrat;
+    margin-top: 4px;
+}
+
+.row-header__btn {
+    font: bold 13px/16px Montserrat;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E51937;
+    width: 160px;
+    height: 40px;
+    border: 2px solid #E51937;
+    box-sizing: border-box;
+    background: transparent;
+    margin-left: 40px;
+}
+
+.header__arrow-down {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    border: 3px solid #E51937;
+    transform: rotate(135deg);
+    transform-origin: left top;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    left: 50%;
+    margin-left: 20px;
+}
